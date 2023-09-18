@@ -24,7 +24,7 @@ function showHitokoto() {
 const tools = {
     "hitokoto": {
         icon: fa_comment,
-        callback: showHitokoto
+        // callback: showHitokoto
     },
     "asteroids": {
         icon: fa_paper_plane,

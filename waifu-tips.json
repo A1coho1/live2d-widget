@@ -2,10 +2,8 @@
 	"mouseover": [{
 		"selector": "#lihui",
 		"text": ["她是宵崎奏哦~"]
-	},{
-		"selector": "#live2d",
-		"text": ["干嘛呢你，快把手拿开～～", "鼠…鼠标放错地方了！", "你要干嘛呀？", "喵喵喵？",  "这样的话，只能使用武力了！", "我要生气了哦", "不要动手动脚的！"]
-	}, {
+	},
+	{
 		"selector": "#waifu-tool-hitokoto",
 		"text": ["猜猜我要说些什么？", "我从青蛙王子那里听到了不少人生经验。"]
 	}, {
@@ -13,13 +11,13 @@
 		"text": ["要不要来玩飞机大战？W/A/S/D控制，空格发射子弹！"]
 	}, {
 		"selector": "#waifu-tool-switch-model",
-		"text": ["你是不是不爱人家了呀，呜呜呜～", "要见见我的姐姐嘛？", "想要看我妹妹嘛？", "要切换看板娘吗？"]
+		"text": ["要切换看板娘吗？"]
 	}, {
 		"selector": "#waifu-tool-switch-texture",
 		"text": ["喜欢换装 PLAY 吗？", "这次要扮演什么呢？", "变装！", "让我们看看接下来会发生什么！"]
 	}, {
 		"selector": "#waifu-tool-photo",
-		"text": ["你要给我拍照呀？一二三～茄子～", "要不，我们来合影吧！", "保持微笑就好了～"]
+		"text": ["你要给我拍照呀？一二三～茄子～", "要不，我们来合影吧！"]
 	}, {
 		"selector": "#waifu-tool-info",
 		"text": ["想要知道更多关于我的事么？", "这里记录着我搬家的历史呢。", "你想深入了解我什么呢？"]
@@ -30,8 +28,8 @@
 		"selector": ".menu-item-home a",
 		"text": ["点击前往首页，想回到上一页可以使用浏览器的后退功能哦。", "点它就可以回到首页啦！", "回首页看看吧。"]
 	}, {
-		"selector": ".menu-item-about a",
-		"text": ["你想知道我家主人是谁吗？", "这里有一些关于我家主人的秘密哦，要不要看看呢？", "发现主人出没地点！"]
+		"selector": "#about",
+		"text": ["你想知道我家主人的秘密吗？", "这里有一些关于我家主人的秘密哦，要不要看看呢？"]
 	}, {
 		"selector": ".menu-item-tags a",
 		"text": ["点击就可以看文章的标签啦！", "点击来查看所有标签哦。"]
@@ -42,8 +40,8 @@
 		"selector": ".menu-item-archives a",
 		"text": ["翻页比较麻烦吗，那就来看看文章归档吧。", "文章目录都整理在这里啦！"]
 	}, {
-		"selector": ".menu-item-friends a",
-		"text": ["这是我的朋友们哦ヾ(◍°∇°◍)ﾉﾞ", "要去大佬们的家看看吗？", "要去拜访一下我的朋友们吗？"]
+		"selector": "#wyylib",
+		"text": ["这是我的朋友wyy哦ヾ(◍°∇°◍)ﾉﾞ", "要去wyy的家看看吗？", "要去拜访一下wyy吗？"]
 	}, {
 		"selector": ".menu-item-search a",
 		"text": ["找不到想看的内容？搜索看看吧！", "在找什么东西呢，需要帮忙吗？"]
@@ -63,7 +61,7 @@
 		"selector": ".cc-opacity, .post-copyright-author",
 		"text": ["要记得规范转载哦。", "所有文章均采用 CC BY-NC-SA 4.0 许可协议～", "转载前要先注意下文章的版权协议呢。"]
 	}, {
-		"selector": ".github",
+		"selector": "#github",
 		"text": ["这里是主人的常驻地址哦。", "这里有主人的联系方式！"]
 	}, {
 		"selector": ".followme",
@@ -186,6 +184,9 @@
 	}, {
 		"selector": ".vsubmit",
 		"text": ["输入验证码就可以提交评论啦～"]
+	},{
+		"selector": ".logo1",
+		"text": ["我家主人好看吗？", "这是我家主人(*´∇｀*)"]
 	}],
 	"seasons": [{
 		"date": "01/01",
